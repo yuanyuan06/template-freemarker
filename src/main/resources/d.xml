@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application description="describe tables">
+    <tables>
+        <table id="user" tablen="90">
+            <fields count="4">
+                <field name="id" len="6" datatype="number(5)"/>
+                <field name="name" len="32" datatype="varchar2(32)"/>
+                <field name="password" len="32" datatype="varchar2(32)"/>
+            </fields>
+        </table>
+        <table id="org" tablen="350">
+            <fields count="8">
+                <field name="id" len="10" datatype="number(9)"/>
+                <field name="org_name" len="8" datatype="varchar2(8)"/>
+                <field name="org_code" len="8" datatype="number(7)"/>
+            </fields>
+        </table>
+    </tables>
+</application>
